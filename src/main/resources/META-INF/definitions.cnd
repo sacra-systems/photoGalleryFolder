@@ -1,0 +1,6 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+
+[jnt:photoGalleryFolder] > jnt:content, jmix:listContent, jmix:editorialContent, jmix:bindedComponent, jmix:link
+ - folder (weakreference, picker[type='folder'])
+ - useNodeNameAsTitle (boolean) = 'true' autocreated
